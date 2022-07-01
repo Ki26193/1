@@ -12,9 +12,8 @@ local Tab = GUI:Tab{
 	Icon = "rbxassetid://8569322835"
 }
 
-local Label = Tab:Label{
-    Text = "Title text",
-    Description =  "Description text"
+local Section = Tab:Section{
+    Name = "Section"
 }
 
 Tab:Button{
